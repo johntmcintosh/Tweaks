@@ -58,7 +58,8 @@
   __attribute__((unused)) NSString *testNSString = FBTweakValue(@"NSString", @"NSString", @"NSString", @"one");
   XCTAssertEqualObjects(testNSString, @"one", @"NSString %@", testNSString);
 
-  __attribute__((unused)) NSString *testNSArray = FBArrayTweakValue(@"NSArray", @"NSArray", @"NSArray", @[@"one", @"two", @"three"], @"two");
+    NSArray *array = @[@"one", @"two", @"three"];
+  __attribute__((unused)) NSString *testNSArray = FBArrayTweakValue(@"NSArray", @"NSArray", @"NSArray", array, @"two");
   XCTAssertEqualObjects(testNSArray, @"two", @"NSString %@", testNSArray);
     
   __attribute__((unused)) NSString *testNSDictionaryKey = FBDictionaryTweakValue(@"NSDictionaryKey", @"NSDictionaryKey", @"NSDictionaryKey", @{@"key1":@"value1", @"key2":@"value2"}, @"key2");

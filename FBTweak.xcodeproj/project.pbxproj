@@ -44,6 +44,7 @@
 		5BACB31B1A1280BD00C4F79D /* FBTweak+Array.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BACB3191A1280BD00C4F79D /* FBTweak+Array.m */; };
 		5BACB31E1A12813C00C4F79D /* _FBTweakArrayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BACB31C1A12813C00C4F79D /* _FBTweakArrayViewController.h */; };
 		5BACB31F1A12813C00C4F79D /* _FBTweakArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BACB31D1A12813C00C4F79D /* _FBTweakArrayViewController.m */; };
+		5BB894541A77EE2000CD5E1D /* FBTweakArrayInlineInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB894531A77EDE600CD5E1D /* FBTweakArrayInlineInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE25A4E1A0AA90E00C97C3E /* FBTweak+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BE25A4C1A0AA90E00C97C3E /* FBTweak+Dictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE25A4F1A0AA90E00C97C3E /* FBTweak+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE25A4D1A0AA90E00C97C3E /* FBTweak+Dictionary.m */; };
 		5BE25A521A0AA9D500C97C3E /* _FBTweakDictionaryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BE25A501A0AA9D500C97C3E /* _FBTweakDictionaryViewController.h */; };
@@ -100,6 +101,7 @@
 		5BACB3191A1280BD00C4F79D /* FBTweak+Array.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = "FBTweak+Array.m"; sourceTree = "<group>"; tabWidth = 2; };
 		5BACB31C1A12813C00C4F79D /* _FBTweakArrayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakArrayViewController.h; sourceTree = "<group>"; };
 		5BACB31D1A12813C00C4F79D /* _FBTweakArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FBTweakArrayViewController.m; sourceTree = "<group>"; };
+		5BB894531A77EDE600CD5E1D /* FBTweakArrayInlineInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBTweakArrayInlineInternal.h; sourceTree = "<group>"; };
 		5BE25A4C1A0AA90E00C97C3E /* FBTweak+Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBTweak+Dictionary.h"; sourceTree = "<group>"; };
 		5BE25A4D1A0AA90E00C97C3E /* FBTweak+Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = "FBTweak+Dictionary.m"; sourceTree = "<group>"; tabWidth = 2; };
 		5BE25A501A0AA9D500C97C3E /* _FBTweakDictionaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FBTweakDictionaryViewController.h; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 				5BE25A4D1A0AA90E00C97C3E /* FBTweak+Dictionary.m */,
 				5BACB3181A1280BD00C4F79D /* FBTweak+Array.h */,
 				5BACB3191A1280BD00C4F79D /* FBTweak+Array.m */,
+				5BB894531A77EDE600CD5E1D /* FBTweakArrayInlineInternal.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				18EFE4B2189EBAC200DA6A5D /* FBTweakInline.h in Headers */,
 				18EFE4B3189EBAC200DA6A5D /* FBTweakShakeWindow.h in Headers */,
 				18EFE536189F38D500DA6A5D /* FBTweakEnabled.h in Headers */,
+				5BB894541A77EE2000CD5E1D /* FBTweakArrayInlineInternal.h in Headers */,
 				18EFE4D0189EC70300DA6A5D /* FBTweakInlineInternal.h in Headers */,
 				5BE25A4E1A0AA90E00C97C3E /* FBTweak+Dictionary.h in Headers */,
 				18EFE527189F19B300DA6A5D /* FBTweakCategory.h in Headers */,

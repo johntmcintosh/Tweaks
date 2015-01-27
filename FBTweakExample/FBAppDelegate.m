@@ -100,7 +100,7 @@ FBTweakAction(@"Actions", @"Global", @"Hello", ^{
   UIColor *color = _buttonColorTweak.dictionaryValue[key];
   [_tweaksButton setTitleColor:color forState:UIControlStateNormal];
     
-  _rotationTweak = FBArrayTweak(@"Content", @"Text", @"Rotation (radians)", @[@(0), @(M_PI_4), @(M_PI_2)], @(0));
+  _rotationTweak = FBArrayTweak(@"Content", @"Text", @"Rotation (radians)", (@[@(0), @(M_PI_4), @(M_PI_2)]), @(0));
   FBTweakValue rotation = _rotationTweak.currentValue ?: _rotationTweak.defaultValue;
   _label.transform = CGAffineTransformRotate(CGAffineTransformIdentity, [rotation floatValue]);
   [_rotationTweak addObserver:self];

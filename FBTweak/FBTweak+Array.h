@@ -8,6 +8,7 @@
  */
 
 #import "FBTweak.h"
+#import "FBTweakArrayInlineInternal.h"
 
 
 /**
@@ -40,11 +41,11 @@
  @abstract Loads an array tweak defined inline.
  @return A {@ref FBTweak} for the array tweak.
  */
-FBTweak *FBArrayTweak(NSString *categoryName, NSString *collectionName, NSString *tweakName, NSArray *array, id defaultValue);
+#define FBArrayTweak(categoryName, collectionName, tweakName, array, defaultValue) _FBArrayTweak(categoryName, collectionName, tweakName, array, defaultValue)
 
 /**
  @abstract Loads the array's value of an array tweak inine.
- @return The array's value of the tweak. If the current value is nil, the default value will be 
-   returned.
+ @return The array's value of the tweak. If the current value is nil, the default value will be
+ returned.
  */
-FBTweakValue FBArrayTweakValue(NSString *categoryName, NSString *collectionName, NSString *tweakName, NSArray *array, id defaultValue);
+#define FBArrayTweakValue(categoryName, collectionName, tweakName, array, defaultValue) _FBArrayTweakValue(categoryName, collectionName, tweakName, array, defaultValue)
